@@ -8,3 +8,5 @@ The user is first asked to choose whether it is a new or old password and to cha
 After correct password entry, using UART the two MCUs communicate and send the data to the EEPROM to store it.
 Attached is the .c files that contain the Embedded C codes, and the .elf files to burn on the MCUs. 
 The Proteus simulation for this project is also attached to show the pins connected.
+## How to compile:
+For MCU1 everyfile that ends in ("1") is for MCU1, and with ("2") is for MCU2. Other files are shareable ans should be in both Projects
